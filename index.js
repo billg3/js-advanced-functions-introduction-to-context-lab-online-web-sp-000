@@ -38,7 +38,7 @@ let [date, hour] = dateStamp.split(' ')
         date,
     })
 
-  console.log(employee)
+    return employee
 }
 
 
