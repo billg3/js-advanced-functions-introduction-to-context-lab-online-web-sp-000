@@ -1,7 +1,7 @@
 // Your code here
 
 /// start
-
+/// row eqials an array 
 // the payroll system
 
 let createEmployeeRecord = function (row){
