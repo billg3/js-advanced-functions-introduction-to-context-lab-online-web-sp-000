@@ -28,7 +28,7 @@ let createEmployeeRecords = function(RowData) {
 
 
 
-let createTimeInEvent =  function(employee, datestamp){
+let createTimeInEvent =  function(employee, dateStamp){
 
 
 
