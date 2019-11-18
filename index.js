@@ -29,10 +29,18 @@ let createEmployeeRecords = function(RowData) {
 
 
 let createTimeInEvent =  function(employee, dateStamp){
-  
+
 let [date, hour] = dateStamp.split(' ')
 
+    employee.timeOutEvents.push({
+        type: "TimeOut",
+        hour: parseInt(hour, 10),
+        date,
+    })
 
+    return employee
+}
+}
 
 
 
