@@ -25,5 +25,3 @@ let createEmployeeRecords = function(RowData) {
     })
     console.log(createEmployeeRecords)
 }
-
-
