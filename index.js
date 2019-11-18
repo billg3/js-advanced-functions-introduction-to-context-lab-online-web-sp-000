@@ -20,7 +20,7 @@ let createEmployeeRecord = function (row){
 
 
 let createEmployeeRecords = function(RowData) {
-    return RowData.map(function(row){
+  var x = RowData.map(function(row){
         return createEmployeeRecord(row)
     })
     console.log(createEmployeeRecords)
