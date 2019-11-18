@@ -29,6 +29,7 @@ let createEmployeeRecords = function(RowData) {
 
 
 let createTimeInEvent =  function(employee, dateStamp){
+  
 let [date, hour] = dateStamp.split(' ')
 
 
