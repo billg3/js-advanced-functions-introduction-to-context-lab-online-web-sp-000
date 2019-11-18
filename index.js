@@ -4,7 +4,7 @@
 
 // the payroll system
 
-let createEmployeeRecord = function (row ){
+let createEmployeeRecord = function (row){
     return {
         firstName: row[0],
         familyName: row[1],
@@ -16,7 +16,7 @@ let createEmployeeRecord = function (row ){
 }
 
 
-let createEmployeeRecords = function (data){
+let createEmployeeRecords = function (row data){
 
 
 
