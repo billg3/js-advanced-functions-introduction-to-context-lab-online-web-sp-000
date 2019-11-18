@@ -23,5 +23,5 @@ let createEmployeeRecords = function(RowData) {
   var x = RowData.map(function(row){
         return createEmployeeRecord(row)
     })
-    console.log(createEmployeeRecords)
+    console.log(x)
 }
