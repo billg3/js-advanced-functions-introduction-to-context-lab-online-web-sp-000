@@ -24,3 +24,5 @@ let createEmployeeRecords = function(RowData) {
         return createEmployeeRecord(row)
     })
 }
+
+console.log(createEmployeeRecords)
