@@ -16,7 +16,7 @@ let createEmployeeRecord = function (row ){
 }
 
 
-let createEmployeeRecords = function (){
+let createEmployeeRecords = function (data){
 
 
 
