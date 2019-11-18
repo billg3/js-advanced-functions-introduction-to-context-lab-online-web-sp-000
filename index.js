@@ -38,8 +38,10 @@ let [date, hour] = dateStamp.split(' ')
         date,
     })
 
-    return employee
+  console.log(employee)
 }
+
+
 
 
 
