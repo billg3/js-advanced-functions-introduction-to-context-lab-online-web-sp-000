@@ -100,6 +100,8 @@ describe("The payroll system", function () {
     })
   })
 
+  ///
+
   describe("it adds a timeOut event Object to an employee's record of timeOutEvents when provided an employee record and Date/Time String and returns the updated record", function () {
 
     it("has a function called createTimeOutEvent", function () {
