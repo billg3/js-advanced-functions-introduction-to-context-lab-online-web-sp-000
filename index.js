@@ -6,7 +6,7 @@
 
 let createEmployeeRecord = function (row){
 
-console.log(row)
+// console.log(row)
 
     return {
         firstName: row[0],
