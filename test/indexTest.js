@@ -42,6 +42,9 @@ describe("The payroll system", function () {
       expect(createEmployeeRecords).to.exist
     })
 
+////////
+
+
     describe("createEmployeeRecords", function () {
       let employeeRecords;
 
@@ -62,6 +65,8 @@ describe("The payroll system", function () {
       })
     })
   })
+
+  /////////
 
   describe("it adds a timeIn event Object to an employee's record of timeInEvents when provided an employee record and Date/Time String and returns the updated record", function () {
 
