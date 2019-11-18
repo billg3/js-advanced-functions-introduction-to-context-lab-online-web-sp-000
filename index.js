@@ -4,4 +4,7 @@
 
 // the payroll system
 
-function createEmplyeeRecord (){ }
+function createEmployeeRecord (){
+
+
+ }
