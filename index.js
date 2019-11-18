@@ -17,7 +17,7 @@ let createEmployeeRecord = function (row){
 
 
 let createEmployeeRecords = function(RowData) {
-    return employeeRowData.map(function(row){
+    return RowData.map(function(row){
         return createEmployeeRecord(row)
     })
 }
