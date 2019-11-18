@@ -4,7 +4,7 @@
 
 // the payroll system
 
-function createEmployeeRecord (){
+let createEmployeeRecord = function (row ){
 
 
  }
